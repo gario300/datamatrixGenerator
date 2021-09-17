@@ -37,8 +37,8 @@ const Home = () => {
               <Image 
                 alt='Barcode Generator TEC-IT'
                 src={`https://barcode.tec-it.com/barcode.ashx?data=${generateDatamatrixData(i + 1)}&code=DataMatrix`}
-                width={150}
-                height={150}
+                width={125}
+                height={125}
               />
             </div>
             <div>
@@ -100,6 +100,6 @@ const pStyles = {
   },
   textValues: {
     fontWeight: 'bold',
-    fontSize: '17px',
+    fontSize: '14px',
   }
 }
